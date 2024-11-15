@@ -1,0 +1,13 @@
+import os
+
+# 获取项目根目录
+ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# 数据库配置
+DATABASE_NAME = "stock_data.db"
+DATABASE_DIR = os.path.join(ROOT_DIR, "db")
+DATABASE_PATH = os.path.join(DATABASE_DIR, DATABASE_NAME)
+
+print(DATABASE_PATH)
+# Tushare API Token
+TUSHARE_TOKEN = "Your Tushare API Token"
